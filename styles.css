@@ -24,9 +24,9 @@ body, html {
     top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 32vh;
+    width: 28vh;
     /* max-width: 560px; */
-    height: 24%;
+    height: 18vh;
     /* aspect-ratio: 16 / 9; */
 }
 
