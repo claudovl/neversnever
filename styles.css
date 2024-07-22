@@ -21,11 +21,11 @@ body, html {
 
 .video-container {
     position: absolute;
-    top: 58%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 16%;
-    height: 310px;
+    width: 360px;
+    height: 280px;
 }
 
 iframe {
@@ -35,15 +35,15 @@ iframe {
 
 .typewriter-container {
     position: absolute;
-    top: 39%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    color: #00FF00;
-    background-color: #00000087;
+    color: #00FF00; /* Зеленый текст как на старых мониторах */
+    background-color: #000000; /* Черный фон */
     padding: 20px;
-    border: 2px solid #00FF00;
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    border: 2px solid #00FF00; /* Зеленая рамка */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Легкий зеленый тень */
 }
 
 #typewriter-text {
@@ -51,4 +51,23 @@ iframe {
     overflow: hidden; /* Скрывает текст, который выходит за границы */
     border-right: .15em solid #00FF00; /* Мигающий курсор */
     font-size: 1em; /* Размер шрифта */
+}
+
+.social {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #00FF00;
+    text-align: center;
+}
+
+.social a {
+    color: #00FF00;
+    text-decoration: none;
+    font-size: 1.5em; /* Размер иконки */
+}
+
+.social a:hover {
+    color: #ffffff; /* Цвет при наведении */
 }
