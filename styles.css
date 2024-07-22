@@ -75,7 +75,7 @@ body, html {
 /* Медиазапросы для адаптивности */
 @media (max-width: 600px) {
     .video-container {
-        width: 51%;
+        width: 28vh;
         height: 20%;
     }
 
