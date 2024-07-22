@@ -58,18 +58,7 @@ iframe {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    color: #00FF00;
     text-align: center;
-}
-
-.social a {
-    color: #00FF00;
-    text-decoration: none;
-    font-size: 2em; /* Размер иконки */
-}
-
-.social a:hover {
-    color: #ffffff; /* Цвет при наведении */
 }
 
 #lottie-instagram {
