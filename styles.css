@@ -24,10 +24,10 @@ body, html {
     top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 28.5vh;
+    width: 33vh;
     /* max-width: 560px; */
-    height: 20vh;
-    /* aspect-ratio: 16 / 9; */
+    height: 23vh;
+    /* aspect-ratio: 16 / 9;
 }
 
 .video-container iframe {
