@@ -40,14 +40,14 @@ body, html {
 
 .typewriter-container {
     position: absolute;
-    top: 37%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 80%;
+    max-width: 400px;
     color: #00FF00;
-    background-color: #00000052;
-    padding: 20px;
-    /* border: 2px solid #00FF00; */
+    background-color: #00000087;
+    padding: 10px;
     box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
 }
 
@@ -84,7 +84,7 @@ body, html {
 
     .video-container {
         width: 90%;
-        padding-top: 50%; /* 2:1 aspect ratio для уменьшения высоты */
+        padding-top: 56.25%; /* 16:9 aspect ratio */
     }
 
     .instagram-icon {
@@ -101,7 +101,7 @@ body, html {
 
     .video-container {
         width: 95%;
-        padding-top: 50%; /* 2:1 aspect ratio для уменьшения высоты */
+        padding-top: 56.25%; /* 16:9 aspect ratio */
     }
 
     .instagram-icon {
