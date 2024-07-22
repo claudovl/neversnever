@@ -24,10 +24,8 @@ body, html {
     top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
-    max-width: 560px;
-    height: auto;
-    aspect-ratio: 16 / 9; /* Поддержка соотношения сторон */
+    width: 16%;
+    height: 314px;
 }
 
 .video-container iframe {
@@ -74,9 +72,9 @@ body, html {
 
 /* Медиазапросы для адаптивности */
 @media (max-width: 600px) {
-    .typewriter-container {
-        width: 90%;
-        font-size: 0.8em;
+    .video-container {
+        width: 52%;
+        height: 20%;
     }
 
     .video-container {
