@@ -55,15 +55,15 @@ body, html {
 
 .social {
     position: absolute;
-    bottom: 26%;
+    bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
 }
 
 .instagram-icon {
-    width: 24px;
-    height: 25px;
+    width: 30px;
+    height: 31px;
     background: #0000006e;
     border-radius: 8px;
 }
