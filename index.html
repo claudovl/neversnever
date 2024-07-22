@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Раслабься и слушай музыку</title>
+    <title>Расслабься и слушай музыку</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.14/lottie.min.js" integrity="sha512-QF2pJ7BtBICtVweGKsDNUPOm6nJecLgkTqFFjxJAHdB1EIdw6S8Z2+d8SfwgZ3/T/4rZ/gBo9+cKcO0+pFfsBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
 <div class="background-container">
@@ -16,12 +17,21 @@
         <p id="typewriter-text"></p>
     </div>
     <div class="social">
-        <p>My Instagram</p>
         <a href="https://www.instagram.com/thatalexpavlov" target="_blank">
-            <i class="fab fa-instagram"></i>
+            <div id="lottie-instagram"></div>
         </a>
     </div>
 </div>
 <script src="script.js"></script>
+<script>
+    // Настройка анимации Lottie
+    const animation = lottie.loadAnimation({
+        container: document.getElementById('lottie-instagram'), // Контейнер для анимации
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'icons8-instagram.json' // Путь к вашему JSON-файлу
+    });
+</script>
 </body>
 </html>
