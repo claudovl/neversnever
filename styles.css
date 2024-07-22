@@ -25,9 +25,7 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 33vh;
-    /* max-width: 560px; */
     height: 23vh;
-    /* aspect-ratio: 16 / 9;
 }
 
 .video-container iframe {
