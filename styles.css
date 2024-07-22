@@ -25,8 +25,9 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    max-width: 544px;
-    height: 314px;
+    max-width: 560px;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Поддержка соотношения сторон */
 }
 
 .video-container iframe {
@@ -80,7 +81,6 @@ body, html {
 
     .video-container {
         width: 90%;
-        height: auto;
     }
 
     .instagram-icon {
@@ -97,7 +97,6 @@ body, html {
 
     .video-container {
         width: 95%;
-        height: auto;
     }
 
     .instagram-icon {
