@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace; /* Шрифт как у ПК 90-х годов */
+    background-color: black;
+}
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-container {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 280px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.typewriter-container {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    color: #00FF00;
+    background-color: #00000087;
+    padding: 20px;
+    border: 2px solid #00FF00;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+#typewriter-text {
+    white-space: pre-wrap; /* Чтобы текст переносился на новые строки */
+    overflow: hidden; /* Скрывает текст, который выходит за границы */
+    border-right: .15em solid #00FF00; /* Мигающий курсор */
+    font-size: 1em; /* Размер шрифта */
+}
