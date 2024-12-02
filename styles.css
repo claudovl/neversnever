@@ -21,10 +21,10 @@ body, html {
 
 .video-container {
     position: absolute;
-    top: 58%;
-    left: 50%;
+    top: 59%;
+    left: 50.1%;
     transform: translate(-50%, -50%);
-    width: 33vh;
+    width: 31vh;
     height: 23vh;
 }
 
